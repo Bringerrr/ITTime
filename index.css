@@ -1,0 +1,67 @@
+.Section-Title {
+  position: relative;
+  height: 700px;
+  background: linear-gradient(
+    252.1deg,
+    rgba(189, 230, 248, 0.5) 0.97%,
+    #a0d5dd 99.77%
+  );
+}
+
+.Section-Title > .Section-Title_Carousel {
+  height: 100%;
+  position: relative;
+}
+
+.Section-Title_Carousel img {
+  width: 700px;
+  height: 700px;
+}
+
+.Section-Title .Title_Info-block {
+  display: flex;
+  align-items: center;
+}
+
+.Section-Title .Title_Info-block .Info-block_Text {
+  background: #ddf2fb;
+  padding: 16px 23px 27px;
+}
+
+.Section-Title .Title_Info-block .Info-block_Text > h2 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 84px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.Section-Title .Title_Info-block .Info-block_Text > span {
+  font-size: 30px;
+  line-height: 143.69%;
+}
+
+.Section-Servises {
+  margin: 51px 0;
+  display: flex;
+  align-items: center;
+}
+
+.Section-Servises
+  > .Section-Servises_Container
+  > .Services-List
+  > .Services-Item {
+  height: 294px;
+  border: 6px solid #ff0026;
+  box-sizing: border-box;
+  border-radius: 1px;
+}
+
+.Section-About {
+  margin: 0 244px;
+}
+
+.Footer {
+  display: flex;
+}
