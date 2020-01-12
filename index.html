@@ -9,6 +9,11 @@
       href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap&subset=cyrillic"
       rel="stylesheet"
     />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap"
+      rel="stylesheet"
+    />
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
@@ -19,8 +24,8 @@
     <link href="index.css" rel="stylesheet" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">IT Time</a>
+    <nav class="navbar navbar-expand-lg Header">
+      <a class="navbar-brand Header_Brand" href="#">IT Time</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -79,6 +84,21 @@
               <div><img src="./assets/slide-img-1.png" alt="..." /></div>
             </div>
           </div>
+
+          <div class="carousel-item">
+            <div class="Title_Info-block">
+              <div class="Info-block_Text">
+                <h2>CRM автоматизация</h2>
+                <span
+                  >Поможем улучшить взаимодействие с клиентами и
+                  заказчиками!</span
+                >
+              </div>
+              <div class="Carousel_Img-Container">
+                <img src="./assets/slide-img-2.png" alt="slide-2" />
+              </div>
+            </div>
+          </div>
         </div>
         <a
           class="carousel-control-prev"
@@ -100,10 +120,10 @@
         </a>
       </div>
     </section>
-    <section class="Section-Servises">
+    <section class="Section-Servises row">
       <div class="Section-Servises_Container">
-        <div class="Services-List">
-          <div class="Services-Item">
+        <div class="Services-List col-lg-8 row">
+          <div class="Services-Item col-lg-5">
             <h3 class="">digital - маркетинг</h3>
 
             <ul>
@@ -116,7 +136,7 @@
               <li>Контент-маркетинг</li>
             </ul>
           </div>
-          <div class="Services-Item">
+          <div class="Services-Item col-lg-5">
             <h3 class="">digital - маркетинг</h3>
 
             <ul>
@@ -129,7 +149,7 @@
               <li>Контент-маркетинг</li>
             </ul>
           </div>
-          <div class="Services-Item">
+          <div class="Services-Item col-lg-5">
             <h3 class="">digital - маркетинг</h3>
 
             <ul>
@@ -142,7 +162,7 @@
               <li>Контент-маркетинг</li>
             </ul>
           </div>
-          <div class="Services-Item">
+          <div class="Services-Item col-lg-5">
             <h3 class="">digital - маркетинг</h3>
 
             <ul>
@@ -157,29 +177,57 @@
           </div>
         </div>
 
-        <div class="">
+        <div class="Servises_Title col-lg-4">
           <h2>Мы предлагаем полный цикл услуг</h2>
         </div>
       </div>
     </section>
 
     <section class="Section-About">
+      <div class="Section-About-Bg"></div>
+      <div class="Section-About-Bg_Picture"></div>
       <div class="About_Container">
         <h2>об агентстве</h2>
-        <span
-          >ITTIME - это молодая команда талантливых разработчиков, небольшой
-          штат с большими амбициями. Каждый проект разрабатывается полностью с
-          нуля и до полного удовлетворения требований клиента. Наша цель -
-          разработать эффекивный инструмент для увеличения дохода клиента, а так
-          же подарить достойное оформление бизнесу в интернете. Мы любим, то что
-          мы делаем</span
-        >
 
-        <div class="About-List">
-          <div><img src="" alt="" /><span></span></div>
-          <div><img src="" alt="" /><span></span></div>
-          <div><img src="" alt="" /><span></span></div>
-          <div><img src="" alt="" /><span></span></div>
+        <div class="About-Content">
+          <span>
+            ITTIME - это молодая команда талантливых разработчиков, небольшой
+            штат с большими амбициями. Каждый проект разрабатывается полностью с
+            нуля и до полного удовлетворения требований клиента. Наша цель -
+            разработать эффекивный инструмент для увеличения дохода клиента, а
+            так же подарить достойное оформление бизнесу в интернете. Мы любим,
+            то что мы делаем
+          </span>
+
+          <div class="About-List">
+            <div>
+              <div class="About-List_Img-Container">
+                <img src="./assets/about-icons/price.png" alt="price" />
+              </div>
+              <span>Выгодная стоимость</span>
+            </div>
+            <div>
+              <div class="About-List_Img-Container">
+                <img src="./assets/about-icons/learn.png" alt="learn" />
+              </div>
+              <span>Все услуги в одном месте</span>
+            </div>
+            <div>
+              <div class="About-List_Img-Container">
+                <img
+                  src="./assets/about-icons/headphones.png"
+                  alt="headphones"
+                />
+              </div>
+              <span>Внимание к клиентам</span>
+            </div>
+            <div>
+              <div class="About-List_Img-Container">
+                <img src="./assets/about-icons/celendar.png" alt="celendar" />
+              </div>
+              <span>Выполнение в оговоренные сроки</span>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -206,51 +254,131 @@
               контролирует соблюдение качества.</span
             >
 
-            <div class="Person_Links"></div>
+            <div class="Person_Links">
+              <img src="./assets/links-icons/vk.png" alt="" /><img
+                src="./assets/links-icons/instagram.png"
+                alt=""
+              /><img src="./assets/links-icons/electro.png" alt="" />
+            </div>
+          </div>
+          <div class="Person_Item">
+            <div class="Person_img-Container">
+              <img src="" alt="" />
+            </div>
+
+            <h4>Дмитрий Тутин</h4>
+            <span
+              >Специалист-технолог. Оптимизирует технологию производства и
+              контролирует соблюдение качества.</span
+            >
+
+            <div class="Person_Links">
+              <img src="./assets/links-icons/vk.png" alt="" /><img
+                src="./assets/links-icons/instagram.png"
+                alt=""
+              /><img src="./assets/links-icons/electro.png" alt="" />
+            </div>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="Section-Form"></section>
+    <section class="Section-Form">
+      <div class="Section-Form-Container">
+        <h2>Задайте нам вопрос о совместном сотрудничестве</h2>
+        <div class="Form-Contacts">
+          <span>info@ittime.ru</span><span>+375(33)5727356</span>
+        </div>
+        <form>
+          <div class="form-group">
+            <input
+              type="tel"
+              class="form-control"
+              id="phone"
+              placeholder="Телефон"
+            />
+          </div>
+          <div class="form-group">
+            <input
+              type="text"
+              class="form-control"
+              id="name"
+              placeholder="Ваше Имя"
+            />
+          </div>
+          <div class="form-group">
+            <input
+              type="text"
+              class="form-control"
+              id="good"
+              placeholder="Услуга"
+            />
+          </div>
+          <div class="form-group">
+            <input
+              type="email"
+              class="form-control"
+              id="exampleInputPassword1"
+              placeholder="Электронная почта"
+            />
+          </div>
+          <div class="form-group">
+            <input
+              type="text"
+              class="form-control"
+              id="message"
+              placeholder="Сообщение"
+            />
+          </div>
+          <button type="submit" class="btn">Отправить</button>
+        </form>
+      </div>
+    </section>
     <footer class="Footer">
-      <div class="Footer-Block">
-        <h5>Компания</h5>
+      <div class="Footer-Container">
+        <div class="Footer-Block">
+          <h5>Компания</h5>
 
-        <ul>
-          <li>О компании</li>
-          <li>Сертификаты</li>
-          <li>Наша команда</li>
-          <li>Партнеры</li>
-          <li>Отзывы</li>
-          <li>Реквизиты</li>
-          <li>Вакансии</li>
-          <li>Вопрос ответ</li>
-          <li>Новости</li>
-        </ul>
-      </div>
+          <ul>
+            <li>О компании</li>
+            <li>Сертификаты</li>
+            <li>Наша команда</li>
+            <li>Партнеры</li>
+            <li>Отзывы</li>
+            <li>Реквизиты</li>
+            <li>Вакансии</li>
+            <li>Вопрос ответ</li>
+            <li>Новости</li>
+          </ul>
+        </div>
 
-      <div class="Footer-Block">
-        <h5>Услуги</h5>
+        <div class="Footer-Block">
+          <h5>Услуги</h5>
 
-        <ul>
-          <li>Digital-маркетинг</li>
-          <li>UX и дизайн</li>
-          <li>Разработка сайтов</li>
-          <li>CRM автоматизация</li>
-        </ul>
-      </div>
+          <ul>
+            <li>Digital-маркетинг</li>
+            <li>UX и дизайн</li>
+            <li>Разработка сайтов</li>
+            <li>CRM автоматизация</li>
+          </ul>
+        </div>
 
-      <div class="Footer-Block">
-        <h5>Наши контакты</h5>
+        <div class="Footer-Block">
+          <h5>Наши контакты</h5>
 
-        <ul>
-          <li>+375 (29) 5727356</li>
-          <li>info@ittime.ru</li>
-          <li>Минск, ул. Казинца 11А Барановичи, ул. Брестская 224Б</li>
-        </ul>
+          <ul>
+            <li>+375 (29) 5727356</li>
+            <li>info@ittime.ru</li>
+            <li>Минск, ул. Казинца 11А Барановичи, ул. Брестская 224Б</li>
+          </ul>
 
-        <div class="Icons-Block"></div>
+          <div class="Icons-Block">
+            <img src="./assets/links-icons/vk.png" alt="" /><img
+              src="./assets/links-icons/instagram.png"
+              alt=""
+            /><img src="./assets/links-icons/electro.png" alt="" />
+          </div>
+        </div>
       </div>
     </footer>
   </body>

@@ -1,9 +1,9 @@
 body {
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 * {
-  margin: 0 !important;
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
@@ -12,7 +12,228 @@ a {
   color: #000;
 }
 
+ul {
+  list-style-type: none;
+}
+
+.Header {
+  margin: 0 207px;
+}
+
+.Header > .Header_Brand {
+  font-family: Kaushan Script;
+  font-size: 36px;
+  line-height: 52px;
+  color: #ff0026;
+  transform: rotate(-7.33deg);
+}
+
 .Header_Icon {
   width: 50px;
   height: 50px;
+}
+
+.BreadCrumbs {
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.01em;
+  color: rgba(0, 0, 0, 0.5);
+
+  margin: 20px 0 20px 210px;
+}
+
+.Section-About {
+  position: relative;
+  min-height: 660px;
+}
+
+.Section-About > .Section-About-Bg {
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-image: url('./assets/iceberg.png');
+  background-position: center center;
+  opacity: 0.2;
+}
+
+.Section-About > .Section-About-Bg_Picture {
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background: linear-gradient(110.36deg, #2ea0b2 1.31%, #0dcdd7 98.89%);
+  opacity: 0.45;
+}
+
+.Section-About > .About_Container {
+  z-index: 2;
+}
+
+.Section-About > .About_Container > h2 {
+  padding-top: 67px;
+  margin-left: 245px;
+  margin-bottom: 69px;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 75px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.Section-About > .About_Container > .About-Content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Section-About > .About_Container > .About-Content > span {
+  max-width: 1194px;
+
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.Section-About > .About_Container > .About-Content > .About-List {
+  display: flex;
+  align-items: flex-end;
+  margin-top: 68px;
+}
+
+.Section-About
+  > .About_Container
+  > .About-Content
+  > .About-List
+  .About-List_Img-Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 98px;
+  margin-bottom: 12.5px;
+}
+
+.Section-About > .About_Container > .About-Content > .About-List > div {
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+  padding: 0 25px;
+}
+
+.Section-About > .About_Container > .About-Content > .About-List img {
+  width: 80px;
+}
+
+.Section-About > .About_Container > .About-Content > .About-List span {
+  font-size: 24px;
+  line-height: 30px;
+  /* identical to box height, or 125% */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.Section-Form {
+  padding-top: 98px;
+  padding-bottom: 112px;
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(
+    244.34deg,
+    #152a33 0%,
+    rgba(24, 47, 56, 0.8) 100%
+  );
+}
+
+.Section-Form > .Section-Form-Container {
+  max-width: 1300px;
+}
+
+.Section-Form > .Section-Form-Container > h2 {
+  font-size: 64px;
+  line-height: 75px;
+  text-align: right;
+  letter-spacing: 0.01em;
+
+  color: #ffffff;
+}
+
+.Section-Form > .Section-Form-Container > .Form-Contacts {
+  margin: 63px 0 61px;
+  display: flex;
+  flex-direction: column;
+}
+
+.Section-Form > .Section-Form-Container > .Form-Contacts > span {
+  font-size: 33px;
+  line-height: 39px;
+  text-align: right;
+  letter-spacing: 0.03em;
+  margin-bottom: 39px;
+  color: #ffffff;
+}
+
+.Section-Form .Section-Form-Container > form > .form-group > input {
+  border: none;
+  background-color: transparent;
+  font-size: 18px;
+  line-height: 21px;
+
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.8);
+  border-radius: 0px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.8);
+}
+
+.Section-Form
+  .Section-Form-Container
+  > form
+  > .form-group
+  > input::placeholder {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.Section-Form .Section-Form-Container > form > .btn {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: right;
+  letter-spacing: 0.01em;
+
+  color: #ff0026;
+}
+
+.Footer {
+  padding: 30px 0 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.Footer > .Footer-Container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1300px;
+}
+
+.Footer > .Footer-Container > .Footer-Block {
+}
+
+.Footer > .Footer-Container > .Footer-Block > h5 {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.04em;
+  margin-bottom: 24px;
+}
+
+.Footer > .Footer-Container > .Footer-Block > ul > li {
+}
+
+.Footer > .Footer-Container > .Footer-Block > .Icons-Block img {
+  width: 33px;
 }
