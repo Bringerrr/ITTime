@@ -1,11 +1,8 @@
 const express = require('express');
-const voting = require('./routes/voting');
 const cors = require('cors');
 const path = require('path');
 const app = express();
 const port = 4001;
-
-const mainPage = './assets/site/index.html';
 
 app.use(express.urlencoded({ extended: true }));
 app.use(cors());
@@ -20,8 +17,6 @@ app.get('/', function(req, res) {
 app.use('/', express.static(public));
 
 app.use(express.static(__dirname + '/public'));
-
-// app.use('/', voting);
 
 const server = app.listen(port, () => {
   console.log(`Voting server started at ${port}`);
