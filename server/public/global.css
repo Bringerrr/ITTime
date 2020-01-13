@@ -1,5 +1,11 @@
+html {
+  font-size: 16px;
+  overflow-x: hidden;
+}
+
 body {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+  overflow-x: hidden;
 }
 
 * {
@@ -16,14 +22,99 @@ ul {
   list-style-type: none;
 }
 
+.mainTitleFont {
+  font-weight: bold;
+  font-size: 4.5rem;
+  line-height: 5.25rem;
+  letter-spacing: 0.02rem;
+  text-transform: uppercase;
+}
+
+.mainTitleFont2 {
+  font-weight: bold;
+  font-size: 4rem;
+  line-height: 4.7rem;
+  letter-spacing: 0.02rem;
+  text-transform: uppercase;
+}
+
+.mainTitleFont3 {
+  font-weight: bold;
+  font-size: 2.3rem;
+  line-height: 2.6rem;
+  letter-spacing: 0.03rem;
+  text-transform: uppercase;
+}
+
+.mainTitleFont4 {
+  font-size: 1.87rem;
+  line-height: 2.6875rem;
+  letter-spacing: 0.02rem;
+}
+
+.mainInfoFont {
+  font-size: 1.875rem;
+  line-height: 143.69%;
+}
+
+.mainInfoFont2 {
+  font-size: 1.75rem;
+  line-height: 2.5rem;
+  letter-spacing: 0.02rem;
+}
+
+.mainInfoFont3 {
+  font-weight: normal;
+  font-size: 1.5rem;
+  letter-spacing: 0.03rem;
+}
+
+.mainInfoFont4 {
+  font-weight: 300;
+  font-size: 1.125rem;
+  line-height: 1.625rem;
+  letter-spacing: 0.02rem;
+}
+
+.mainInfoFont5 {
+  font-weight: bold;
+  font-size: 1.125rem;
+  line-height: 1.3125rem;
+  letter-spacing: 0.04rem;
+}
+
+.subtitleFont {
+  font-size: 2.0625rem;
+  line-height: 2.4375rem;
+  letter-spacing: 0.03rem;
+}
+
+.inputFont {
+  font-size: 1.125rem;
+  line-height: 1.3125rem;
+  letter-spacing: 0.03rem;
+}
+
+.listItemFont {
+  font-size: 1.125rem;
+  line-height: 150%;
+  letter-spacing: 0.03rem;
+}
+
+.subtextFont {
+  font-size: 0.875rem;
+  line-height: 1rem;
+  letter-spacing: 0.01rem;
+}
+
 .Header {
   margin: 0 207px;
 }
 
 .Header > .Header_Brand {
   font-family: Kaushan Script;
-  font-size: 36px;
-  line-height: 52px;
+  font-size: 2.25rem;
+  line-height: 3.25rem;
   color: #ff0026;
   transform: rotate(-7.33deg);
 }
@@ -34,9 +125,6 @@ ul {
 }
 
 .BreadCrumbs {
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.01em;
   color: rgba(0, 0, 0, 0.5);
 
   margin: 20px 0 20px 210px;
@@ -52,7 +140,7 @@ ul {
   height: 100%;
   width: 100%;
   position: absolute;
-  background-image: url('./assets/iceberg.png');
+  background-image: url("./assets/iceberg.png");
   background-position: center center;
   opacity: 0.2;
 }
@@ -74,10 +162,6 @@ ul {
   padding-top: 67px;
   margin-left: 245px;
   margin-bottom: 69px;
-  font-weight: bold;
-  font-size: 64px;
-  line-height: 75px;
-  letter-spacing: 0.02em;
   text-transform: uppercase;
 }
 
@@ -92,11 +176,8 @@ ul {
 .Section-About > .About_Container > .About-Content > span {
   max-width: 1194px;
 
-  font-weight: normal;
-  font-size: 24px;
   line-height: 30px;
   text-align: center;
-  letter-spacing: 0.03em;
 }
 
 .Section-About > .About_Container > .About-Content > .About-List {
@@ -129,12 +210,7 @@ ul {
 }
 
 .Section-About > .About_Container > .About-Content > .About-List span {
-  font-size: 24px;
-  line-height: 30px;
-  /* identical to box height, or 125% */
-
   text-align: center;
-  letter-spacing: 0.03em;
 }
 
 .Section-Form {
@@ -154,10 +230,7 @@ ul {
 }
 
 .Section-Form > .Section-Form-Container > h2 {
-  font-size: 64px;
-  line-height: 75px;
   text-align: right;
-  letter-spacing: 0.01em;
 
   color: #ffffff;
 }
@@ -169,10 +242,7 @@ ul {
 }
 
 .Section-Form > .Section-Form-Container > .Form-Contacts > span {
-  font-size: 33px;
-  line-height: 39px;
   text-align: right;
-  letter-spacing: 0.03em;
   margin-bottom: 39px;
   color: #ffffff;
 }
@@ -180,10 +250,6 @@ ul {
 .Section-Form .Section-Form-Container > form > .form-group > input {
   border: none;
   background-color: transparent;
-  font-size: 18px;
-  line-height: 21px;
-
-  letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.8);
   border-radius: 0px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.8);
@@ -198,9 +264,6 @@ ul {
 }
 
 .Section-Form .Section-Form-Container > form > .btn {
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 42px;
   text-align: right;
   letter-spacing: 0.01em;
 
@@ -224,10 +287,6 @@ ul {
 }
 
 .Footer > .Footer-Container > .Footer-Block > h5 {
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 21px;
-  letter-spacing: 0.04em;
   margin-bottom: 24px;
 }
 
@@ -236,4 +295,30 @@ ul {
 
 .Footer > .Footer-Container > .Footer-Block > .Icons-Block img {
   width: 33px;
+}
+
+/* // Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... } */
+
+@media (max-width: 768px) {
+  body {
+    /* background-color: red; */
+  }
+
+  .hideOnSmall {
+    display: block;
+  }
+  .Section-About > .About_Container > h2 {
+    margin-left: 0px;
+    text-align: center;
+  }
 }
