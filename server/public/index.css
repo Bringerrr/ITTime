@@ -274,8 +274,9 @@
 }
 
 @media (max-width: 576px) {
-  .mainTitleFont1 {
+  .mainTitleFont {
     font-size: 2.3rem;
+    line-height: 2.8rem;
   }
   .mainTitleFont2 {
     font-size: 2.3rem;
