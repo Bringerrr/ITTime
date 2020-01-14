@@ -267,6 +267,10 @@
     margin-top: -30.5px;
     font-size: 2rem;
   }
+
+  .Section-Crew_Container {
+    text-align: center;
+  }
 }
 
 @media (max-width: 576px) {
