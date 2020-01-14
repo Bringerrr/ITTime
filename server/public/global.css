@@ -22,6 +22,10 @@ ul {
   list-style-type: none;
 }
 
+.generalPaddings {
+  padding: 0 10px;
+}
+
 .mainTitleFont {
   font-weight: bold;
   font-size: 4.5rem;
@@ -108,7 +112,8 @@ ul {
 }
 
 .Header {
-  margin: 0 207px;
+  margin: 0 auto;
+  max-width: 1300px;
 }
 
 .Header > .Header_Brand {
@@ -141,7 +146,7 @@ ul {
   width: 100%;
   position: absolute;
   background-image: url("./assets/iceberg.png");
-  background-position: center center;
+  background-size: auto 100%;
   opacity: 0.2;
 }
 
@@ -156,13 +161,17 @@ ul {
 
 .Section-About > .About_Container {
   z-index: 2;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .Section-About > .About_Container > h2 {
   padding-top: 67px;
-  margin-left: 245px;
   margin-bottom: 69px;
   text-transform: uppercase;
+  width: 100%;
+  max-width: 1300px;
 }
 
 .Section-About > .About_Container > .About-Content {
@@ -231,7 +240,6 @@ ul {
 
 .Section-Form > .Section-Form-Container > h2 {
   text-align: right;
-
   color: #ffffff;
 }
 
