@@ -22,6 +22,10 @@ ul {
   list-style-type: none;
 }
 
+.font-bold {
+  font-weight: bold;
+}
+
 .generalPaddings {
   padding: 0 10px;
 }
@@ -81,7 +85,6 @@ ul {
 }
 
 .mainInfoFont5 {
-  font-weight: bold;
   font-size: 1.125rem;
   line-height: 1.3125rem;
   letter-spacing: 0.04rem;
@@ -129,10 +132,15 @@ ul {
   height: 50px;
 }
 
+.BreadCrumbs-Container {
+  display: flex;
+  justify-content: center;
+}
 .BreadCrumbs {
   color: rgba(0, 0, 0, 0.5);
-
-  margin: 20px 0 20px 210px;
+  margin: 20px 0;
+  width: 100%;
+  max-width: 1300px;
 }
 
 .Section-About {
@@ -191,7 +199,6 @@ ul {
 
 .Section-About > .About_Container > .About-Content > .About-List {
   display: flex;
-  align-items: flex-end;
   margin-top: 68px;
 }
 
@@ -209,7 +216,6 @@ ul {
 
 .Section-About > .About_Container > .About-Content > .About-List > div {
   flex-direction: column;
-  justify-content: center;
   display: flex;
   padding: 0 25px;
 }
@@ -328,5 +334,27 @@ ul {
   .Section-About > .About_Container > h2 {
     margin-left: 0px;
     text-align: center;
+  }
+}
+
+@media (max-width: 576px) {
+  .mainTitleFont {
+    font-size: 2.3rem;
+    line-height: 2.8rem;
+  }
+  .mainTitleFont2 {
+    font-size: 2.3rem;
+  }
+
+  .Section-Form > .Section-Form-Container > h2 {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+}
+
+@media (max-width: 1360px) {
+  .Servises_Title > h2 {
+    font-size: 2.5rem;
+    line-height: 3.6rem;
   }
 }

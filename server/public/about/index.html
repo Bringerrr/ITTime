@@ -24,7 +24,7 @@
     <link href="index.css" rel="stylesheet" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg Header">
+    <nav class="navbar navbar-expand-lg navbar-light Header">
       <a class="navbar-brand Header_Brand" href="#">IT Time</a>
       <button
         class="navbar-toggler"
@@ -70,16 +70,18 @@
       </div>
     </nav>
 
-    <div class="BreadCrumbs subtextFont">Главная/ Об агентстве</div>
+    <div class="BreadCrumbs-Container generalPaddings">
+      <div class="BreadCrumbs subtextFont">Главная/ Об агентстве</div>
+    </div>
 
-    <section class="About_Section-About">
-      <div class="About_Section-About-Container">
+    <section class="About_Section-About generalPaddings">
+      <div class="About_Section-About-Container ">
         <h3 class="About_Section-About_Title">
           Об агентстве | Web-агентство “ITTime”
         </h3>
 
-        <span class="About_Section-About_Text"
-          >Компания ООО “АйТиТайм” (ittime) заявила о себе на белорусском рынкt
+        <span class="About_Section-About_Text mainInfoFont5"
+          >Компания ООО “АйТиТайм” (ittime) заявила о себе на белорусском рынке
           IT в 2013 году как студия, специализирующаяся на разработке сайтов на
           «1С-Битрикс». За несколько лет плотной работы в этой сфере мы
           научились понимать ее потребности, слышать пожелания, предугадывать
@@ -87,8 +89,8 @@
         >
 
         <div class="About_Section-About_Sub-Content">
-          <h4>Чем мы можем быть вам полезны</h4>
-          <p>
+          <h4 class="mainInfoFont5 font-bold">Чем мы можем быть вам полезны</h4>
+          <p class="mainInfoFont5">
             Умеем разрабатывать стратегии по захвату интернет-пространств. Для
             малого бизнеса подготовим медиаплан, который сэкономит деньги и
             приведет первых клиентов. Крупным брендам разработаем план
@@ -96,13 +98,13 @@
             b2b-проектов отстроим систему электронного маркетинга – от первого
             посещения до полноценной продажи.
           </p>
-          <p>
+          <p class="mainInfoFont5">
             Увеличиваем прибыльность вашего бизнеса. Работаем с ведущими
             CRM-системами на рынке и знаем нюансы интеграции каждой в
             зависимости от специфики вашего бизнеса. Пора проверить, на что
             способен ваш отдел продаж!
           </p>
-          <p>
+          <p class="mainInfoFont5">
             Управляем репутацией. Поможем наладить диалог с покупателями и
             клиентами на вашей территории и покажем, как использовать обратную
             связь на благо бизнесу. За время существования наша команда
@@ -113,14 +115,14 @@
       </div>
     </section>
 
-    <section class="Section-About">
+    <section class="Section-About ">
       <div class="Section-About-Bg"></div>
       <div class="Section-About-Bg_Picture"></div>
-      <div class="About_Container">
-        <h2>об агентстве</h2>
+      <div class="About_Container generalPaddings">
+        <h2 class="mainTitleFont2">об агентстве</h2>
 
         <div class="About-Content">
-          <span>
+          <span class="mainInfoFont3">
             ITTIME - это молодая команда талантливых разработчиков, небольшой
             штат с большими амбициями. Каждый проект разрабатывается полностью с
             нуля и до полного удовлетворения требований клиента. Наша цель -
@@ -129,33 +131,33 @@
             то что мы делаем
           </span>
 
-          <div class="About-List">
-            <div>
+          <div class="About-List row">
+            <div class="col-sm-6 col-lg-3">
               <div class="About-List_Img-Container">
                 <img src="../assets/about-icons/price.png" alt="price" />
               </div>
-              <span>Выгодная стоимость</span>
+              <span class="mainInfoFont3">Выгодная стоимость</span>
             </div>
-            <div>
+            <div class="col-sm-6 col-lg-3">
               <div class="About-List_Img-Container">
                 <img src="../assets/about-icons/learn.png" alt="learn" />
               </div>
-              <span>Все услуги в одном месте</span>
+              <span class="mainInfoFont3">Все услуги в одном месте</span>
             </div>
-            <div>
+            <div class="col-sm-6 col-lg-3">
               <div class="About-List_Img-Container">
                 <img
                   src="../assets/about-icons/headphones.png"
                   alt="headphones"
                 />
               </div>
-              <span>Внимание к клиентам</span>
+              <span class="mainInfoFont3">Внимание к клиентам</span>
             </div>
-            <div>
+            <div class="col-sm-6 col-lg-3">
               <div class="About-List_Img-Container">
                 <img src="../assets/about-icons/celendar.png" alt="celendar" />
               </div>
-              <span>Выполнение в оговоренные сроки</span>
+              <span class="mainInfoFont3">Выполнение в оговоренные сроки</span>
             </div>
           </div>
         </div>
@@ -164,17 +166,18 @@
 
     <section class="About_Section-Message">
       <div class="About_Section-Message-Container">
-        <span
-          >Над вашим проектом будет работать сплоченная команда разработчиков, а
-          все взаимодействие с вами будет происходить через менеджера проекта,
-          координирующего работу группы. Нам принципиально важно развиваться и
-          улучшать качество продукции.</span
-        >
-
+        <div class="generalPaddings">
+          <span class="mainTitleFont4"
+            >Над вашим проектом будет работать сплоченная команда разработчиков,
+            а все взаимодействие с вами будет происходить через менеджера
+            проекта, координирующего работу группы. Нам принципиально важно
+            развиваться и улучшать качество продукции.</span
+          >
+        </div>
         <div class="About_Section-Message_Work-Accept-Block">
           <div class="Accept-Block_Text">
-            <h4>Хотите работать с нами?</h4>
-            <span
+            <h4 class="mainInfoFont2">Хотите работать с нами?</h4>
+            <span class="mainInfoFont2"
               >Оставьте контакты для связи и мы с удовольствием отправим Вам
               наше коммерческое предложение!</span
             >
@@ -184,9 +187,9 @@
       </div>
     </section>
     <footer class="Footer">
-      <div class="Footer-Container">
+      <div class="Footer-Container generalPaddings row">
         <div class="Footer-Block">
-          <h5>Компания</h5>
+          <h5 class="mainInfoFont5">Компания</h5>
 
           <ul>
             <li>О компании</li>
@@ -218,14 +221,15 @@
           <ul>
             <li>+375 (29) 5727356</li>
             <li>info@ittime.ru</li>
-            <li>Минск, ул. Казинца 11А Барановичи, ул. Брестская 224Б</li>
+            <li>Минск, ул. Казинца 11А</li>
+            <li>Барановичи,ул. Брестская 224Б</li>
           </ul>
 
           <div class="Icons-Block">
-            <img src="../assets/links-icons/vk.png" alt="" /><img
-              src="../assets/links-icons/instagram.png"
+            <img src="./assets/links-icons/vk.png" alt="" /><img
+              src="./assets/links-icons/instagram.png"
               alt=""
-            /><img src="../assets/links-icons/electro.png" alt="" />
+            /><img src="./assets/links-icons/electro.png" alt="" />
           </div>
         </div>
       </div>
